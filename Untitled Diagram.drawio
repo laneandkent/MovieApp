@@ -1,35 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T00:52:35.844Z" agent="5.0 (Macintosh)" etag="mZZmj1-_0X0AvtRLMLwC" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T18:12:06.079Z" agent="5.0 (Macintosh)" etag="AlyeTVxoeCIe0jnic1Zn" version="14.6.10" type="github">
   <diagram id="IpLPaKOz75N7yGngUw1L" name="Page-1">
     <mxGraphModel dx="946" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4JWztt4tIfNEAZuGudWK-1" value="App Root" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4JWztt4tIfNEAZuGudWK-1" value="App Root" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="10" width="780" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-2" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4JWztt4tIfNEAZuGudWK-2" value="&lt;div align=&quot;left&quot;&gt;Header&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="90" width="780" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-5" value="Search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="110" width="130" height="20" as="geometry" />
+        <mxCell id="4JWztt4tIfNEAZuGudWK-5" value="Current Collection" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="110" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-6" value="&lt;div&gt;Login&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="110" width="130" height="20" as="geometry" />
+        <mxCell id="4JWztt4tIfNEAZuGudWK-6" value="Wish List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="110" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-8" value="&lt;b&gt;Movie List&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="190" width="150" height="310" as="geometry" />
+        <mxCell id="pRlWxu2CIjeTbiIXIZeP-1" value="&lt;div&gt;(drop down)&lt;/div&gt;&lt;div&gt;Filter by Title&lt;/div&gt;&lt;div&gt;Filter by Viewed&lt;/div&gt;&lt;div&gt;Filter by Rating&lt;/div&gt;&lt;div&gt;Edit Collection&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="140" width="120" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-9" value="&lt;div&gt;&lt;b&gt;Movie Detail&lt;/b&gt;&lt;/div&gt;&lt;div&gt;title&lt;/div&gt;&lt;div&gt;genre(s)&lt;br&gt;&lt;/div&gt;&lt;div&gt;release date&lt;/div&gt;&lt;div&gt;running time&lt;/div&gt;&lt;div&gt;main cast/crew&lt;/div&gt;&lt;div&gt;plot summary&lt;br&gt;&lt;/div&gt;&lt;div&gt;revenue&lt;/div&gt;&lt;div&gt;image&lt;/div&gt;&lt;div&gt;reviews&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="190" width="590" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-10" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="720" width="780" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-11" value="&lt;div&gt;&lt;b&gt;Reviews component&lt;/b&gt;&lt;/div&gt;&lt;div&gt;add review&lt;/div&gt;&lt;div&gt;edit review&lt;/div&gt;&lt;div&gt;delete review&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="530" width="780" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="4JWztt4tIfNEAZuGudWK-12" value="New Releases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="650" width="780" height="60" as="geometry" />
+        <mxCell id="pRlWxu2CIjeTbiIXIZeP-2" value="&lt;div&gt;(drop down)&lt;/div&gt;&lt;div&gt;See Wish List&lt;br&gt;&lt;/div&gt;&lt;div&gt;Edit Wish List&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="140" width="120" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
