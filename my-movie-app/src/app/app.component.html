@@ -1,8 +1,8 @@
 
-<div class="container"><app-header></app-header></div>
+<app-header (listSelected)="onNavigate($event)"></app-header>
 
-<div class="container"><app-movies-list></app-movies-list></div>
+<div class="container"><app-movies-list *ngIf="loadedList==='current'"></app-movies-list></div>
 
-<div class="container"><app-wishlist></app-wishlist></div>
+<div class="container"><app-wishlist *ngIf="loadedList==='wish'"></app-wishlist></div>
 
 <div class="container"><app-movie-edit></app-movie-edit></div>
