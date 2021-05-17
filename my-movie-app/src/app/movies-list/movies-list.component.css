@@ -1,4 +1,9 @@
-h3 { font-family: "Garamond", sans-serif; color: rgb(0, 0, 0); text-shadow: 2px 1px lightgray; text-align: center }
+h3 { font-family: "Garamond", sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px lightgray;
+  font-weight: 800;
+  text-align: center;
+}
 
 
 * {
@@ -7,4 +12,10 @@ h3 { font-family: "Garamond", sans-serif; color: rgb(0, 0, 0); text-shadow: 2px 
 
 h4 {
   font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

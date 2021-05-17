@@ -5,4 +5,6 @@
 
 <div class="container"><app-wishlist *ngIf="loadedList==='wish'"></app-wishlist></div>
 
-<div class="container"><app-movie-edit></app-movie-edit></div>
+<div class="container"><app-movie-edit *ngIf="loadedList==='current' || 'wish'"></app-movie-edit></div>
+
+<div class="container"><app-movie-detail></app-movie-detail></div>
